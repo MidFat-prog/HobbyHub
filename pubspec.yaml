@@ -1,0 +1,44 @@
+name: final_project
+description: A hobby community app with Firebase backend
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  google_maps_flutter: ^2.5.0
+  geolocator: ^10.1.0
+  geocoding: ^2.1.1
+
+  # Firebase
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+  firebase_storage: ^12.3.2
+
+  # UI & State Management
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  fluttertoast: ^8.2.8
+  url_launcher: ^6.2.0
+
+  # Image Handling
+  image_picker: ^1.0.7
+
+  # Utilities
+  shared_preferences: ^2.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo.png
